@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8BA648211BF09300B29105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BA647211BF09300B29105 /* AppDelegate.m */; };
+		DE8BA64B211BF09300B29105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BA64A211BF09300B29105 /* ViewController.m */; };
+		DE8BA64E211BF09300B29105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8BA64C211BF09300B29105 /* Main.storyboard */; };
+		DE8BA650211BF09800B29105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8BA64F211BF09800B29105 /* Assets.xcassets */; };
+		DE8BA653211BF09800B29105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8BA651211BF09800B29105 /* LaunchScreen.storyboard */; };
+		DE8BA656211BF09800B29105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BA655211BF09800B29105 /* main.m */; };
+		DE8BA661211BF39400B29105 /* XZPayboxTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BA660211BF39400B29105 /* XZPayboxTextField.m */; };
+		DE8BA664211C13B900B29105 /* XZPayboxPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BA663211C13B900B29105 /* XZPayboxPopupView.m */; };
+		DE8BA668211C165B00B29105 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BA666211C165B00B29105 /* UIView+Extensions.m */; };
+		DEDFBA95211D31F200FF16CC /* XZPayboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDFBA94211D31F100FF16CC /* XZPayboxViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE8BA643211BF09300B29105 /* Paybox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paybox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8BA646211BF09300B29105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8BA647211BF09300B29105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8BA649211BF09300B29105 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE8BA64A211BF09300B29105 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE8BA64D211BF09300B29105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8BA64F211BF09800B29105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8BA652211BF09800B29105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8BA654211BF09800B29105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8BA655211BF09800B29105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8BA65F211BF39400B29105 /* XZPayboxTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZPayboxTextField.h; sourceTree = "<group>"; };
+		DE8BA660211BF39400B29105 /* XZPayboxTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZPayboxTextField.m; sourceTree = "<group>"; };
+		DE8BA662211C13B900B29105 /* XZPayboxPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZPayboxPopupView.h; sourceTree = "<group>"; };
+		DE8BA663211C13B900B29105 /* XZPayboxPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZPayboxPopupView.m; sourceTree = "<group>"; };
+		DE8BA666211C165B00B29105 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		DE8BA667211C165B00B29105 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		DE8BA66D211C3C6F00B29105 /* XZFitwithHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZFitwithHeader.h; sourceTree = "<group>"; };
+		DEDFBA93211D31F100FF16CC /* XZPayboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPayboxViewController.h; sourceTree = "<group>"; };
+		DEDFBA94211D31F100FF16CC /* XZPayboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPayboxViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8BA640211BF09300B29105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8BA63A211BF09300B29105 = {
+			isa = PBXGroup;
+			children = (
+				DE8BA645211BF09300B29105 /* Paybox */,
+				DE8BA644211BF09300B29105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8BA644211BF09300B29105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BA643211BF09300B29105 /* Paybox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8BA645211BF09300B29105 /* Paybox */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BA66D211C3C6F00B29105 /* XZFitwithHeader.h */,
+				DE8BA646211BF09300B29105 /* AppDelegate.h */,
+				DE8BA647211BF09300B29105 /* AppDelegate.m */,
+				DE8BA649211BF09300B29105 /* ViewController.h */,
+				DE8BA64A211BF09300B29105 /* ViewController.m */,
+				DEDFBA93211D31F100FF16CC /* XZPayboxViewController.h */,
+				DEDFBA94211D31F100FF16CC /* XZPayboxViewController.m */,
+				DE8BA662211C13B900B29105 /* XZPayboxPopupView.h */,
+				DE8BA663211C13B900B29105 /* XZPayboxPopupView.m */,
+				DE8BA65F211BF39400B29105 /* XZPayboxTextField.h */,
+				DE8BA660211BF39400B29105 /* XZPayboxTextField.m */,
+				DE8BA665211C165B00B29105 /* UIView - category */,
+				DE8BA64C211BF09300B29105 /* Main.storyboard */,
+				DE8BA64F211BF09800B29105 /* Assets.xcassets */,
+				DE8BA651211BF09800B29105 /* LaunchScreen.storyboard */,
+				DE8BA654211BF09800B29105 /* Info.plist */,
+				DE8BA655211BF09800B29105 /* main.m */,
+			);
+			path = Paybox;
+			sourceTree = "<group>";
+		};
+		DE8BA665211C165B00B29105 /* UIView - category */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BA666211C165B00B29105 /* UIView+Extensions.m */,
+				DE8BA667211C165B00B29105 /* UIView+Extensions.h */,
+			);
+			path = "UIView - category";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8BA642211BF09300B29105 /* Paybox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8BA659211BF09800B29105 /* Build configuration list for PBXNativeTarget "Paybox" */;
+			buildPhases = (
+				DE8BA63F211BF09300B29105 /* Sources */,
+				DE8BA640211BF09300B29105 /* Frameworks */,
+				DE8BA641211BF09300B29105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paybox;
+			productName = Paybox;
+			productReference = DE8BA643211BF09300B29105 /* Paybox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8BA63B211BF09300B29105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XZ;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = developer;
+				TargetAttributes = {
+					DE8BA642211BF09300B29105 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DE8BA63E211BF09300B29105 /* Build configuration list for PBXProject "Paybox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8BA63A211BF09300B29105;
+			productRefGroup = DE8BA644211BF09300B29105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8BA642211BF09300B29105 /* Paybox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8BA641211BF09300B29105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8BA653211BF09800B29105 /* LaunchScreen.storyboard in Resources */,
+				DE8BA650211BF09800B29105 /* Assets.xcassets in Resources */,
+				DE8BA64E211BF09300B29105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8BA63F211BF09300B29105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8BA64B211BF09300B29105 /* ViewController.m in Sources */,
+				DE8BA668211C165B00B29105 /* UIView+Extensions.m in Sources */,
+				DEDFBA95211D31F200FF16CC /* XZPayboxViewController.m in Sources */,
+				DE8BA656211BF09800B29105 /* main.m in Sources */,
+				DE8BA648211BF09300B29105 /* AppDelegate.m in Sources */,
+				DE8BA664211C13B900B29105 /* XZPayboxPopupView.m in Sources */,
+				DE8BA661211BF39400B29105 /* XZPayboxTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8BA64C211BF09300B29105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8BA64D211BF09300B29105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8BA651211BF09800B29105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8BA652211BF09800B29105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8BA657211BF09800B29105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8BA658211BF09800B29105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8BA65A211BF09800B29105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RDN7383GD;
+				INFOPLIST_FILE = Paybox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.Paybox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8BA65B211BF09800B29105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RDN7383GD;
+				INFOPLIST_FILE = Paybox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.Paybox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8BA63E211BF09300B29105 /* Build configuration list for PBXProject "Paybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8BA657211BF09800B29105 /* Debug */,
+				DE8BA658211BF09800B29105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8BA659211BF09800B29105 /* Build configuration list for PBXNativeTarget "Paybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8BA65A211BF09800B29105 /* Debug */,
+				DE8BA65B211BF09800B29105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8BA63B211BF09300B29105 /* Project object */;
+}
